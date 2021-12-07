@@ -60,7 +60,7 @@ import java.util.Locale
 
 @Composable
 fun OverviewBody(
-    onClickSeeAllAccounts: () -> Unit = {},
+    onClickSeeAllAccounts: () -> Unit = { },
     onClickSeeAllBills: () -> Unit = {},
     onAccountClick: (String) -> Unit = {},
 ) {
